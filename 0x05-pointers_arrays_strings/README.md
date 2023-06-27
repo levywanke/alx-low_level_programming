@@ -25,4 +25,4 @@
 * The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 * Don’t forget to push your header file
 
-
+* File: `0-reset_to_98.c` Write a function that takes a pointer to an int as parameter and updates the value it points to to 98
