@@ -8,14 +8,14 @@
  *
  * Return: pointer to the memory area str
  */
-char *_memset(char *str, char r, unsigned int m)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int j;
 
-	for (j = 0; j < m; j++)
+	for (j = 0; j < n; j++)
 	{
-		str[j] = r;
+		s[j] = b;
 	}
 
-	return (str);
+	return (s);
 }
