@@ -47,4 +47,4 @@
 
  * Create a script called `create_static_lib.sh` that creates a static library called` liball.a` from all the .c files that are in the current directory.
 
-###                         ` copyright©2023-@levywanke-static library -All Rights Reserved.`
+###           <span style="color:red"> ` copyright©2023-@levywanke-static library -All Rights Reserved.`</span>
