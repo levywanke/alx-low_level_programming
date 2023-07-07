@@ -1,4 +1,4 @@
-![STATIC LIBRARY](https://www.google.com/imgres?imgurl=https%3A%2F%2Forageek.com%2Fwp-content%2Fuploads%2F2020%2F08%2Fdigital-techno-5a.jpg&tbnid=wMDg8pl6JV2dFM&vet=12ahUKEwiA5qumnPz_AhUAsCcCHQo5BKkQMygPegUIARDbAQ..i&imgrefurl=https%3A%2F%2Forageek.com%2Foracle-internals%2Fshared-vs-static-library-performance%2F&docid=yGln5HcBsYdoCM&w=809&h=490&q=static%20library&ved=2ahUKEwiA5qumnPz_AhUAsCcCHQo5BKkQMygPegUIARDbAQ)
+
 
 
 # 0x09. C - Static libraries
@@ -47,4 +47,4 @@
 
  * Create a script called `create_static_lib.sh` that creates a static library called` liball.a` from all the .c files that are in the current directory.
 
-               copyright&copy;2023-levywanke -All Rights Reserved.
+                          copyright©2023-@levywanke-static library -All Rights Reserved.
