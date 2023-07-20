@@ -2,7 +2,7 @@
 
 
 /*
- * sum_the_all -the variadic function to add variables
+ * sum_them_all - the variadic function to add variables
  * @n:number of arguments to be passed to the function
  * @i:loop iterator variable(for loop)
  *
@@ -15,12 +15,12 @@ int sum_them_all(const unsigned int n, ...)
 	int sum = 0;
 	va_list args;
 
-	va_start(args,n);
+	va_start(args, n);
 
-	for(i = 0; i < n; i++)
-		sum += va_arg(args,int);
+	for (i = 0; i < n; i++)
+		sum += va_arg(args, int);
 
 	va_end(args);
 
-	return(sum);
+	return (sum);
 }
