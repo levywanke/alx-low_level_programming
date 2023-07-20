@@ -1,14 +1,13 @@
 #include "variadic_functions.h"
 
-
-/*
- * sum_them_all - the variadic function to add variables
- * @n:number of arguments to be passed to the function
- * @i:loop iterator variable(for loop)
+/**
+ * sum_them_all - Returns the sum of all its paramters.
+ * @n: The number of paramters passed to the function.
+ * @...: A variable number of paramters to calculate the sum of.
  *
- * return:return the resulting sum fro mthe variadic function
- */
-
+ * Return:sum
+ * Otherwise - the sum of all parameters.
+ **/
 int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
