@@ -1,3 +1,4 @@
+![hqdefault](https://github.com/levywanke/alx-low_level_programming/assets/132353709/b12971e5-bb0a-4e30-b621-837689d19cc0)
 # 0x10. C - Variadic functions
 
 ## `0-sum_them_all.c`
