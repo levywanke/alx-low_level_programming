@@ -1,8 +1,8 @@
 ## 0x12. C - Singly linked lists
 
-* [https://intranet.alxswe.com/concepts/120](Data structures)
-* [https://intranet.alxswe.com/rltoken/joxg32-tt4lUh8Afgst8tA](Linked lists)
-* [https://intranet.alxswe.com/rltoken/epKUCIcoA6XaN1T3Vtr_9w](Youtube)
+* [Data Structures](https://intranet.alxswe.com/concepts/120)
+* [Linked lists](https://intranet.alxswe.com/rltoken/joxg32-tt4lUh8Afgst8tA)
+* [Youtube](https://intranet.alxswe.com/rltoken/epKUCIcoA6XaN1T3Vtr_9w)
 
 # Requirements
 ### General
@@ -23,18 +23,18 @@
 
 ## 0. Print list
 mandatory
-Write a function that prints all the elements of a list_t list.
+* Write a function that prints all the elements of a list_t list.
 
-Prototype: size_t print_list(const list_t *h);
-Return: the number of nodes
-Format: see example
-If str is NULL, print [0] (nil)
-You are allowed to use printf
-julien@ubuntu:~/0x12. Singly linked lists$ cat 0-main.c
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "lists.h"
+* Prototype: `size_t print_list(const list_t *h);`
+* Return: the number of nodes
+* Format: see example
+* If str is NULL, print [0] (nil)
+* You are allowed to use printf
+* julien@ubuntu:~/0x12. Singly linked lists$ cat 0-main.c
+`#include <stdlib.h>
+ #include <string.h>
+ #include <stdio.h>
+ #include "lists.h"
 
 /**
  * main - check the code
@@ -70,8 +70,8 @@ int main(void)
 
     free(new);
     return (0);
-}
-julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_list.c -o a
+}`
+`julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-print_list.c -o a
 julien@ubuntu:~/0x12. Singly linked lists$ ./a 
 [5] Hello
 [5] World
@@ -80,23 +80,23 @@ julien@ubuntu:~/0x12. Singly linked lists$ ./a
 [0] (nil)
 [5] World
 -> 2 elements
-julien@ubuntu:~/0x12. Singly linked lists$ 
-Repo:
+julien@ubuntu:~/0x12. Singly linked lists$ `
+## Repo:
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 0-print_list.c
+ * GitHub repository: alx-low_level_programming
+ * Directory: 0x12-singly_linked_lists
+ * File: 0-print_list.c
   
 1. List length
 mandatory
-Write a function that returns the number of elements in a linked list_t list.
+* Write a function that returns the number of elements in a linked list_t list.
 
-Prototype: size_t list_len(const list_t *h);
-julien@ubuntu:~/0x12. Singly linked lists$ cat 1-main.c
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "lists.h"
+* Prototype: ` size_t list_len(const list_t *h);`
+* julien@ubuntu:~/0x12. Singly linked lists$ cat 1-main.c
+`#include <stdlib.h>
+ #include <string.h>
+ #include <stdio.h>
+ #include "lists.h"
 
 /**
  * main - check the code
@@ -126,30 +126,30 @@ int main(void)
     free(new->str);
     free(new);
     return (0);
-}
-julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-list_len.c -o b
+}`
+`julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-list_len.c -o b
 julien@ubuntu:~/0x12. Singly linked lists$ ./b 
 -> 2 elements
-julien@ubuntu:~/0x12. Singly linked lists$ 
-Repo:
+julien@ubuntu:~/0x12. Singly linked lists$ `
+### Repo:
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 1-list_len.c
+* GitHub repository: alx-low_level_programming
+* Directory: 0x12-singly_linked_lists
+* File: 1-list_len.c
   
 2. Add node
 mandatory
-Write a function that adds a new node at the beginning of a list_t list.
+* Write a function that adds a new node at the beginning of a list_t list.
 
-Prototype: list_t *add_node(list_t **head, const char *str);
-Return: the address of the new element, or NULL if it failed
-str needs to be duplicated
-You are allowed to use strdup
+* Prototype: `list_t *add_node(list_t **head, const char *str);`
+* Return: the address of the new element, or NULL if it failed
+* str needs to be duplicated
+* You are allowed to use strdup
 julien@ubuntu:~/0x12. Singly linked lists$ cat 2-main.c
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "lists.h"
+`#include <stdlib.h>
+ #include <string.h>
+ #include <stdio.h>
+ #include "lists.h"
 
 /**
  * main - check the code
@@ -191,8 +191,8 @@ int main(void)
     add_node(&head, "Zee");
     print_list(head);
     return (0);
-}
-julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-add_node.c 0-print_list.c -o c
+}`
+`julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-add_node.c 0-print_list.c -o c
 julien@ubuntu:~/0x12. Singly linked lists$ ./c 
 [3] Zee
 [7] William
@@ -222,26 +222,26 @@ julien@ubuntu:~/0x12. Singly linked lists$ ./c
 [8] Augustin
 [5] Asaia
 [9] Alexandro
-julien@ubuntu:~/0x12. Singly linked lists$ 
-Repo:
+julien@ubuntu:~/0x12. Singly linked lists$ `
+### Repo:
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 2-add_node.c
+* GitHub repository: alx-low_level_programming
+* Directory: 0x12-singly_linked_lists
+* File: 2-add_node.c
   
 3. Add node at the end
 mandatory
-Write a function that adds a new node at the end of a list_t list.
+* Write a function that adds a new node at the end of a list_t list.
 
-Prototype: list_t *add_node_end(list_t **head, const char *str);
-Return: the address of the new element, or NULL if it failed
-str needs to be duplicated
-You are allowed to use strdup
+* Prototype:` list_t *add_node_end(list_t **head, const char *str);`
+* Return: the address of the new element, or NULL if it failed
+* str needs to be duplicated
+* You are allowed to use strdup
 julien@ubuntu:~/0x12. Singly linked lists$ cat 3-main.c
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "lists.h"
+` #include <stdlib.h>
+  #include <string.h>
+  #include <stdio.h>
+  #include "lists.h"
 
 /**
  * main - check the code
@@ -283,8 +283,8 @@ int main(void)
     add_node_end(&head, "Walton");
     print_list(head);
     return (0);
-}
-julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-add_node_end.c 0-print_list.c -o d
+}`
+` julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-add_node_end.c 0-print_list.c -o d
 julien@ubuntu:~/0x12. Singly linked lists$ ./d 
 [4] Anne
 [6] Colton
@@ -314,23 +314,23 @@ julien@ubuntu:~/0x12. Singly linked lists$ ./d
 [7] Timothy
 [6] Victor
 [6] Walton
-julien@ubuntu:~/0x12. Singly linked lists$ 
+julien@ubuntu:~/0x12. Singly linked lists$ `
 Repo:
 
-GitHub repository: alx-low_level_programming
-Directory: 0x12-singly_linked_lists
-File: 3-add_node_end.c
+* GitHub repository: alx-low_level_programming
+* Directory: 0x12-singly_linked_lists
+* File: 3-add_node_end.c
   
 4. Free list
 `mandatory`
 * Write a function that frees a list_t list.
 
 * Prototype: void free_list(list_t *head);
-` julien@ubuntu:~/0x12. Singly linked lists$ cat 4-main.c
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include "lists.h"
+julien@ubuntu:~/0x12. Singly linked lists$ cat 4-main.c
+`#include <stdlib.h>
+ #include <string.h>
+ #include <stdio.h>
+ #include "lists.h"
 
 /**
  * main - check the code
@@ -351,8 +351,8 @@ int main(void)
     free_list(head);
     head = NULL;
     return (0);
-}
-julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
+}`
+`julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-free_list.c 3-add_node_end.c 0-print_list.c -o e
 julien@ubuntu:~/0x12. Singly linked lists$ valgrind ./e
 ==3598== Memcheck, a memory error detector
 ==3598== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
@@ -376,6 +376,6 @@ julien@ubuntu:~/0x12. Singly linked lists$ valgrind ./e
 julien@ubuntu:~/0x12. Singly linked lists$` 
 ## Repo:
 
-* GitHub repository: alx-low_level_programming
+* `GitHub repository: alx-low_level_programming
 * Directory: 0x12-singly_linked_lists
-* File: 4-free_list.c
+* File: 4-free_list.c`
