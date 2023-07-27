@@ -28,7 +28,7 @@ mandatory
 * Write a function that prints all the elements of a list_t list.
 
   
-* ![download (3)](https://github.com/levywanke/alx-low_level_programming/assets/132353709/d660788e-811f-4ef7-98f2-56bcee83d735)
+ ![download (3)](https://github.com/levywanke/alx-low_level_programming/assets/132353709/d660788e-811f-4ef7-98f2-56bcee83d735)
 
 * Prototype: `size_t print_list(const list_t *h);`
 * Return: the number of nodes
@@ -95,6 +95,8 @@ julien@ubuntu:~/0x12. Singly linked lists$ `
 1. List length
 mandatory
 * Write a function that returns the number of elements in a linked list_t list.
+
+  
 ![images (2)](https://github.com/levywanke/alx-low_level_programming/assets/132353709/720fe3c1-999d-4b3f-85fe-568d01c6cd62)
 
 * Prototype: ` size_t list_len(const list_t *h);`
@@ -146,6 +148,8 @@ julien@ubuntu:~/0x12. Singly linked lists$ `
 2. Add node
 mandatory
 * Write a function that adds a new node at the beginning of a list_t list.
+
+  
 ![download](https://github.com/levywanke/alx-low_level_programming/assets/132353709/b0aea7b5-0976-473a-b1b2-8dfd7c1c2b75)
 
 * Prototype: `list_t *add_node(list_t **head, const char *str);`
@@ -239,6 +243,8 @@ julien@ubuntu:~/0x12. Singly linked lists$ `
 3. Add node at the end
 mandatory
 * Write a function that adds a new node at the end of a list_t list.
+
+  
 ![download (1)](https://github.com/levywanke/alx-low_level_programming/assets/132353709/824f0f0d-b18c-462c-841c-a1e6c1d4d447)
 
 * Prototype:` list_t *add_node_end(list_t **head, const char *str);`
@@ -332,6 +338,8 @@ Repo:
 4. Free list
 `mandatory`
 * Write a function that frees a list_t list.
+  
+
 ![download (4)](https://github.com/levywanke/alx-low_level_programming/assets/132353709/cb1bb577-7447-4a29-903a-0684a83797d5)
 
 * Prototype: void free_list(list_t *head);
