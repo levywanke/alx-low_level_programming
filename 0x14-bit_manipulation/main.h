@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+int _putchar(char c);
 /* Task 0 - Converts a binary number to an unsigned int */
 unsigned int binary_to_uint(const char *b);
 
