@@ -27,7 +27,7 @@ int create_file(const char *filename, char *text_content)
 	if (text_content)
 	{
 		wb  = write(fd, text_content, len);
-		if (wb  == -1 || (size_t) wb != len)
+		if (wb  == -1 || (size_t)wb != len)
 				{
 				close(fd);
 				return (-1);
