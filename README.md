@@ -1,6 +1,3 @@
-Certainly! Here's a README.md file structured for Low-level programming & Algorithm topics including Hatching out, Data structures and Algorithms, and Linux and Unix system programming:
-
----
 
 # Low-level Programming & Algorithm
 
@@ -18,6 +15,3 @@ In the Data Structures and Algorithms section, you will find projects and implem
 
 The Linux and Unix System Programming section delves into low-level system programming on Unix-like operating systems. Explore topics such as file I/O, process management, system calls, socket programming, and shell scripting. Projects in this section involve practical applications and utilities developed in C/C++ or shell scripting.
 
----
-
-Feel free to explore each section to delve deeper into low-level programming concepts, data structures, algorithms, and system programming on Unix-like systems. Each directory contains projects, code implementations, and README files with detailed explanations, instructions, and resources to enhance your skills in low-level programming and algorithmic problem-solving.
